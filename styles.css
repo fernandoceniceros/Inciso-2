@@ -1,0 +1,46 @@
+/* Estilo general del cuerpo */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #ffffff;
+  margin: 0;
+}
+
+/* Estilos del menú de navegación */
+nav {
+  background: #324e36;
+  padding: 10px;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Contenedor del carrusel */
+.carousel {
+  overflow: hidden;
+  width: 80%;
+  max-width: 800px;
+  position: relative;
+  margin: 20px auto;
+}
+
+/* Contenedor de imágenes en fila */
+.carousel-images {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+/* Ajuste de tamaño de imágenes */
+.carousel-images img {
+  width: 100%;
+  display: block;
+}
+
+/* Fernando Ceniceros */ 
+/* 05/02/25 */ 
+/* Diseño Web */ 
+/* Universidad Autónoma de Durango*/ 
